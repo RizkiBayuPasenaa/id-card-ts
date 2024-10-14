@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.id-card-container{
+  max-width: 500px;
+  min-width: 300px;
+  padding: 20px;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.id-card-header {
+  text-align: center;
+}
+
+.id-card-body {
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+
+.hero {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 10px 10px white;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+
+.input-container {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border: 2px solid white;
+  width: 30%;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+}
